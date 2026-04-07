@@ -1,0 +1,29 @@
+SYSTEM = (Relaxation/Optimisation)
+
+LREAL = .FALSE.             # Depending on system
+ALGO = NORMAL
+PREC = Accurate
+
+ICHARG = 2
+ISTART = 0
+ISMEAR = 0
+SIGMA = 0.05
+IVDW = 12                   #Vanderwaal Corrrectons
+ISIF = 2                    #For 2D structure always for 3D It depends
+
+NSW = 150
+IBRION = 2
+
+NCORE = 8
+
+ENCUT = 500
+EDIFF = 1E-6
+EDIFFG = -0.02
+
+LDIPOL = .TRUE.             #Dipole Corrections
+IDIPOL = 3
+
+LSORBIT = .TRUE.            # For Spin Orbit Coupling
+
+LWAVE = .FALSE.
+LCHARG = .FALSE.
