@@ -1,16 +1,17 @@
-SYSTEM = BiSb(pdos)
+SYSTEM = (Pdos)
 
 LREAL = .FALSE.
 ALGO = NORMAL
 PREC = Accurate
 
-ICHARG = 11
+ICHARG = 11                 # To read CHGCAR
 ISTART = 0
 ISMEAR = 0
 SIGMA = 0.05
 
 ISIF = 2
 IVDW = 12
+
 NSW = 0
 IBRION = -1
 
@@ -23,8 +24,11 @@ ISPIN = 1
 
 LDIPOL = .TRUE.
 IDIPOL = 3
+
 NEDOS = 5000
+
 LSORBIT = .TRUE.
 LORBIT = 11
+
 LWAVE = .FALSE.
 LCHARG = .FALSE.
