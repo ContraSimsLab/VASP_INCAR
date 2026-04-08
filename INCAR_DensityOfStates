@@ -1,4 +1,4 @@
-SYSTEM = Pdos
+SYSTEM = Density Of States
 
 LREAL = .FALSE.
 ALGO = NORMAL
@@ -12,8 +12,8 @@ SIGMA = 0.05
 ISIF = 2
 IVDW = 12
 
-NSW = 0
-IBRION = -1
+NSW = 0                    # Ionic Steps Set to Zero
+IBRION = -1                # No Update Algorithm
 
 NCORE = 8
 
@@ -24,10 +24,10 @@ EDIFFG = -0.02
 LDIPOL = .TRUE.
 IDIPOL = 3
 
-NEDOS = 5000              # No of energy grid points used to calculate DOS  
+NEDOS = 5000               # No of energy grid points used to calculate DOS  
 
 LSORBIT = .TRUE.
-LORBIT = 11               # Generates DOSCAR File
+LORBIT = 11                # Generates DOSCAR File
 
 LWAVE = .FALSE.
-LCHARG = .FALSE.          # No Charge Density
+LCHARG = .FALSE.           # No Charge Density
