@@ -27,5 +27,5 @@ LSORBIT = .TRUE.
 LORBIT = 11                    # Generates PROCAR used for band structure analysis
 
 LWAVE = .FALSE.              
-LCHARG = .FALSE.               # Disable new charge density generation     
+LCHARG = .FALSE.                
   
