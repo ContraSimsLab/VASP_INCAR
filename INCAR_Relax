@@ -23,7 +23,7 @@ EDIFFG = -0.02              # Force Convergence criterion for ionic relaxation.
 LDIPOL = .TRUE.             # Dipole Corrections
 IDIPOL = 3                  # Specifies the direction along which dipole corrections
 
-LSORBIT = .TRUE.            # For Spin Orbit Coupling
+LSORBIT = .TRUE.            # For Spin Orbit Coupling (Depends on system)
 
 LWAVE = .FALSE.             # Determines whether the wavefunction is written 
 LCHARG = .FALSE.            # Determines whether the charge density is written  
