@@ -1,1 +1,3 @@
-This section includes all the VASP input files. Relax is the starting file where  information of tags used are given. For other calculations only the tags that are changed are highlighted.
+This section contains all the VASP input files used in the calculations. 
+The Relax file serves as the starting point and includes the complete set of tags along with their descriptions. 
+For subsequent calculations, only the tags that differ from the Relax input file are specified and highlighted for clarity.
