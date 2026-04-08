@@ -1,4 +1,4 @@
-SYSTEM = (Pdos)
+SYSTEM = Pdos
 
 LREAL = .FALSE.
 ALGO = NORMAL
@@ -20,15 +20,14 @@ NCORE = 8
 ENCUT = 500
 EDIFF = 1E-6
 EDIFFG = -0.02
-ISPIN = 1
 
 LDIPOL = .TRUE.
 IDIPOL = 3
 
-NEDOS = 5000
+NEDOS = 5000              # No of energy grid points used to calculate DOS  
 
 LSORBIT = .TRUE.
-LORBIT = 11
+LORBIT = 11               # Generates DOSCAR File
 
 LWAVE = .FALSE.
-LCHARG = .FALSE.
+LCHARG = .FALSE.          # No Charge Density
