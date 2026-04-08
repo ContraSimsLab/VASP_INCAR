@@ -1,0 +1,28 @@
+SYSTEM = Spin_Texture
+
+LREAL = .FALSE.
+ALGO = NORMAL
+PREC = Accurate
+
+ICHARG = 2
+ISTART = 0
+ISMEAR = 0
+SIGMA = 0.05
+IVDW = 12
+ISIF = 2
+
+NSW = 0                           # Ionic Steps Set to Zero
+IBRION = -1                       # No Update Algorithm
+
+NCORE = 8
+
+ENCUT = 500
+EDIFF = 1E-6
+EDIFFG = -0.02
+
+LDIPOL = .TRUE.
+IDIPOL = 3
+                  
+LSORBIT = .TRUE.
+LWAVE = .FALSE.
+LCHARG = .TRUE.                  # Generates Charge Density to be used in further calculations
