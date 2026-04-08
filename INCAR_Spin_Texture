@@ -25,4 +25,4 @@ IDIPOL = 3
                   
 LSORBIT = .TRUE.
 LWAVE = .FALSE.
-LCHARG = .TRUE.                  # Generates Charge Density to be used in further calculations
+LCHARG = .FALSE.                  
