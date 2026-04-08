@@ -1,4 +1,4 @@
-SYSTEM = BiAs_surface(bader)
+SYSTEM = Bader Analysis
 
 LREAL = .FALSE.
 ALGO = NORMAL
