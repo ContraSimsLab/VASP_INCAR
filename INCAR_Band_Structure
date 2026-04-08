@@ -12,7 +12,7 @@ SIGMA = 0.05
 ISIF = 2
 IVDW = 12
 NSW = 0                        # Ionic Steps Set to Zero
-IBRION = -1                    # # No Update Algorithm
+IBRION = -1                    # No Update Algorithm
 
 NCORE = 8
 
