@@ -4,7 +4,7 @@ LREAL = .FALSE.
 ALGO = NORMAL
 PREC = Accurate
 
-ICHARG = 11                     #To read CHGCAR file 
+ICHARG = 11                     # To read CHGCAR file 
 ISTART = 0
 ISMEAR = 0
 SIGMA = 0.05
@@ -28,4 +28,4 @@ LSORBIT = .TRUE.
 LORBIT = 11                  # Generates PROCAR used for band structure analysis
 
 LWAVE = .FALSE.              
-LCHARG = .FALSE.             # Not Required       
+LCHARG = .FALSE.             # Disable new charge density generation     
