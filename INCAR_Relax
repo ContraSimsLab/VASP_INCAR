@@ -1,29 +1,29 @@
-SYSTEM = (Relaxation/Optimisation)
+SYSTEM = Relaxation/Optimisation
 
 LREAL = .FALSE.             # Depending on system
-ALGO = NORMAL
-PREC = Accurate
+ALGO = NORMAL               # Algorithm electronic minimization 
+PREC = Accurate             # Controls the precision level of the calculation
 
-ICHARG = 2
-ISTART = 0
-ISMEAR = 0
-SIGMA = 0.05
-IVDW = 12                   #Vanderwaal Corrrectons
-ISIF = 2                    #For 2D structure always for 3D It depends
+ICHARG = 2                  # Controls how the initial charge density is generated or read
+ISTART = 0                  # Controls how the wavefunctions are initialized
+ISMEAR = 0                  # Sets type of smearing (Gaussian)
+SIGMA = 0.05                # Sets the width of the smearing
+IVDW = 12                   # Vanderwaal Corrrectons
+ISIF = 2                    # Only atomic positions are optimised 
 
-NSW = 150
-IBRION = 2
+NSW = 150                   # Sets the maximum number of ionic steps
+IBRION = 2                  # Algorithm for ionic relaxation (CG)
 
-NCORE = 8
+NCORE = 8                   # Controls how many CPU cores are used per orbital (parallelization over electronic bands)
 
-ENCUT = 500
-EDIFF = 1E-6
-EDIFFG = -0.02
+ENCUT = 500                 # Sets the plane-wave energy cutoff
+EDIFF = 1E-6                # Energy Convergence criterion for SCF.
+EDIFFG = -0.02              # Force Convergence criterion for ionic relaxation.
 
-LDIPOL = .TRUE.             #Dipole Corrections
-IDIPOL = 3
+LDIPOL = .TRUE.             # Dipole Corrections
+IDIPOL = 3                  # Specifies the direction along which dipole corrections
 
 LSORBIT = .TRUE.            # For Spin Orbit Coupling
 
-LWAVE = .FALSE.
-LCHARG = .FALSE.
+LWAVE = .FALSE.             # Determines whether the wavefunction is written 
+LCHARG = .FALSE.            # Determines whether the charge density is written  
