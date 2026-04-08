@@ -30,4 +30,4 @@ LSORBIT = .TRUE.
 LORBIT = 11                # Generates DOSCAR File
 
 LWAVE = .FALSE.
-LCHARG = .FALSE.           # No Charge Density
+LCHARG = .FALSE.          
