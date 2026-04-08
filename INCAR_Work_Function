@@ -1,4 +1,4 @@
-SYSTEM = BiAs_surface(wrk_function)
+SYSTEM = Work_Function
 
 LREAL = .FALSE.
 ALGO = NORMAL
