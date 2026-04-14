@@ -26,4 +26,4 @@ cd $PBS_O_WORKDIR
 cat $PBS_NODEFILE > pbs_nodes
 
 
-mpirun -np 48 -machinefile $PBS_NODEFILE vasp_std | tee result
+mpirun -np 48 -machinefile $PBS_NODEFILE vasp_ncl | tee result
