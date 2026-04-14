@@ -24,4 +24,4 @@ echo Working directory is $PBS_O_WORKDIR
 NPROCS=`wc -l < $PBS_NODEFILE`
 NNODES=`uniq $PBS_NODEFILE | wc -l`
 
-mpirun -np 128 --machinefile $PBS_NODEFILE vasp_std | tee result3
+mpirun -np 128 --machinefile $PBS_NODEFILE vasp_ncl | tee result3
