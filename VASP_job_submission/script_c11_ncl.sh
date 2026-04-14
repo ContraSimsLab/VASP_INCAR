@@ -15,7 +15,7 @@ source /opt/parallel_studio_xe_2018/start.sh
 
 #module load vasp.6.1.2
 
-mpirun -hostfile $PBS_NODEFILE -np 96 /c11scratch/apps/vasp.6.1.2/bin/vasp_std | tee result
+mpirun -hostfile $PBS_NODEFILE -np 96 /c11scratch/apps/vasp.6.1.2/bin/vasp_ncl | tee result
 
 
 
