@@ -1,4 +1,4 @@
-SYSTEM = CuCo2S4_surface_DFT+U(relax)
+SYSTEM = Relaxation_DFT+U
 
 LREAL = Auto
 ALGO = NORMAL
@@ -18,7 +18,7 @@ ENCUT = 500
 EDIFF = 1E-4
 EDIFFG = -0.02
 ISPIN = 2
-IVDW = 11
+IVDW = 12
 
 LDAU = .TRUE.
 LDAUTYPE = 2
@@ -28,4 +28,4 @@ LDAUJ = 0.0 0.0 0.0
 LMAXMIX = 4   
 
 LWAVE = .FALSE.
-LCHARG = .TRUE.
+LCHARG = .FALSE.
