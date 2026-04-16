@@ -1,0 +1,31 @@
+SYSTEM = CuCo2S4_surface_DFT+U(relax)
+
+LREAL = Auto
+ALGO = NORMAL
+PREC = Accurate
+
+ICHARG = 2
+ISTART = 0
+ISMEAR = 0
+SIGMA = 0.05
+
+ISIF = 2
+
+NSW = 150
+IBRION = 2
+
+ENCUT = 500
+EDIFF = 1E-4
+EDIFFG = -0.02
+ISPIN = 2
+IVDW = 11
+
+LDAU = .TRUE.
+LDAUTYPE = 2
+LDAUL = -1 2 -1
+LDAUU = 0.0 3.3 0.0
+LDAUJ = 0.0 0.0 0.0
+LMAXMIX = 4   
+
+LWAVE = .FALSE.
+LCHARG = .TRUE.
