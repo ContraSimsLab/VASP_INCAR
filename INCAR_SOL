@@ -1,0 +1,39 @@
+SYSTEM = solvation
+
+LREAL = .FALSE.
+ALGO = NORMAL
+PREC = Accurate
+
+ICHARG = 2
+ISTART = 1           # Read existing wavefunction
+ISMEAR = 0
+SIGMA = 0.05
+IVDW = 12
+ISIF = 2
+
+NSW = 0
+IBRION = -1
+
+NCORE = 8
+
+ENCUT = 500
+EDIFF = 1E-6
+EDIFFG = -0.02
+ISPIN = 1
+LDIPOL = .TRUE.
+IDIPOL = 3
+
+LORBIT = 11
+LSORBIT = .TRUE.
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+
+LSOL = .TRUE.        #Switch on solvation model
+
+#EB_K = 78.3553       #Dielectric constant of the bulk solvent (Water)
+#SIGMA_K = 0.600000   #this is default value [width of the dielectric cavity]
+#NC_K = 0.002500      #this is default value [cutoff charge density]
+#TAU = 0.000525       #this is default value - neglect the the cavitation energy contribution, set TAU = 0 cavity surface tension
+#LAMBDA_D_K = 0       #[3.04l] inearized Poisson-Boltzmann model(electrolyte model) Debye length in Angstroms,  was set to 3.04 Å to simulate 1M condition.
+#LRHOB = F            #write boundcharge  density 
+#LRHOION = F          #write ioniccharge density
