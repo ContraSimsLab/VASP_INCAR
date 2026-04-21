@@ -6,7 +6,7 @@ PREC = Accurate
 
 ICHARG = 11                 # To read CHGCAR
 ISTART = 0
-ISMEAR = 0
+ISMEAR = -4                 # Tetrahedron method
 SIGMA = 0.05
 
 ISIF = 2
